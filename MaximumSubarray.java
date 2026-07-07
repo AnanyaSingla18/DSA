@@ -1,6 +1,6 @@
 // Maximum Subarray
 import java.util.*;
-public class one {
+public class MaximumSubarray {
     public static int maxSubArray(int[] nums) {
         int maxSum = nums[0];
         int currentSum = nums[0];

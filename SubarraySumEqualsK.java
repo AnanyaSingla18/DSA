@@ -1,6 +1,6 @@
 //Subarray Sum Equals K
 import java.util.*;
-public class two {
+public class SubarraySumEqualsK {
     public static int subarraySumEqualsK(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);
